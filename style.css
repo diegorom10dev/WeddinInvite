@@ -28,7 +28,7 @@ body {
     position: relative;
     margin: 24px;
     width: 420px;
-    height: 2900px;
+    height: 2850px;
     overflow: hidden;
     background-color: #fff;
     box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
@@ -48,8 +48,8 @@ body {
 }
 
 .secimg-container{
-    position: absolute;
-    top: 400px;
+    position: relative;
+    /*top: 400px;*/
     left: 0;
     width: 100%;
     height: 100%;
@@ -60,71 +60,6 @@ body {
     
 }
 
-.thirdimg-container{
-    position: absolute;
-    top: 1185px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.thirdimg-container img {
-    width: 100%;
-    
-}
-
-.fourthimg-container{
-    position: relative;
-    /*top: 620px;*/
-    left: auto;
-    width: 100%;
-    height: 100%;
-}
-
-.fourthimg-container img {
-    width: 100%;
-    
-} /*<p class="title">Sofia & Diego</p>*/
-
-.fifthimg-container{
-    position: relative;
-    /*top: 400px;*/
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.fifthimg-container img {
-    width: 100%;
-    
-}
-
-.sixthimg-container{
-    position: absolute;
-    top: 1720px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.sixthimg-container img {
-    width: 100%;
-    
-}
-
-.seventhimg-container{
-    position: absolute;
-    top: 2330px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.seventhimg-container img {
-    width: 100%;
-    
-}
-
 .body-container {
     position: relative;
     top: 400px;
@@ -136,11 +71,12 @@ body {
     position: relative;
 }
 
-.overlay {
+/*<div class="overlay"></div>*/
+/*.overlay {
     position: relative;
     width: 100%;
     height: 450px;
-    /*background-color: rgba(73, 69, 68, 0.6);*/
+    background-color: rgba(73, 69, 68, 0.6);
     opacity: 0;
     transition: height linear 0.4s, opacity linear 0.8s;
 }
@@ -148,16 +84,18 @@ body {
 .item-container:hover .overlay {
     opacity: 1;
     height: 450px;
-}
+}*/
 
 .event-info {
     
+    position: relative;
+    width: 100%;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px;
+    padding: 1px;
 }
 
 .info_description{
@@ -220,13 +158,78 @@ body {
     font-weight: bolder;
 }
 
+.thirdimg-container{
+    position: relative;
+    /*top: 1185px;*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.thirdimg-container img {
+    width: 100%;
+    
+}
+
+.fourthimg-container{
+    position: relative;
+    /*top: 620px;*/
+    left: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.fourthimg-container img {
+    width: 100%;
+    
+} /*<p class="title">Sofia & Diego</p>*/
+
+.fifthimg-container{
+    position: relative;
+    /*top: 400px;*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fifthimg-container img {
+    width: 100%;
+    
+}
+
+.sixthimg-container{
+    position: relative;
+    /*top: 1720px;*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sixthimg-container img {
+    width: 100%;
+    
+}
+
+.seventhimg-container{
+    position: relative;
+    /*top: 2330px;*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.seventhimg-container img {
+    width: 100%;
+    
+}
+
 .action {
     color: #800000;
     border: 3px solid #800000;
     background-color: transparent;
-    position: absolute;
-    top: 2245px;
-    left: 50%;
+    position: relative;
+    /*top: 2250px;*/
+    left: 30%;
     transform: translateX(-50%);
     width: 60%;
     outline: none;
@@ -240,7 +243,7 @@ body {
 }
 
 .item-container:hover .action {
-    top: 2240px;
+    top: -5%;
 }
 
 .action:hover {
@@ -252,9 +255,9 @@ body {
     border: 3px solid #1b1a1a;
     border-radius: 8px;
     background-color: #800000;
-    position: absolute;
+    position: relative;
     /*top: 1050px;*/
-    left: 50%;
+    left: 20%;
     transform: translateX(-50%);
     width: 40%;
     outline: none;
@@ -277,9 +280,9 @@ body {
     border: 3px solid #1b1a1a;
     border-radius: 8px;
     background-color: #800000;
-    position: absolute;
+    position: relative;
     /*top: 1050px;*/
-    left: 50%;
+    left: 20%;
     transform: translateX(-50%);
     width: 40%;
     outline: none;
