@@ -136,7 +136,7 @@ body {
     position: relative;
 }
 
-.overlay {
+/*.overlay {
     position: relative;
     width: 100%;
     height: 450px;
@@ -148,7 +148,7 @@ body {
 .item-container:hover .overlay {
     opacity: 1;
     height: 450px;
-}
+} */
 
 .event-info {
     
