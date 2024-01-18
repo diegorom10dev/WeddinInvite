@@ -225,7 +225,7 @@ body {
     border: 3px solid #800000;
     background-color: transparent;
     position: absolute;
-    top: 2250px;
+    top: 2245px;
     left: 50%;
     transform: translateX(-50%);
     width: 60%;
@@ -240,7 +240,7 @@ body {
 }
 
 .item-container:hover .action {
-    top: 2245px;
+    top: 2240px;
 }
 
 .action:hover {
