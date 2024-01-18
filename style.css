@@ -221,9 +221,9 @@ body {
 }
 
 .action {
-    /*color: #800000;
+    color: #800000;
     border: 3px solid #800000;
-    background-color: transparent;*/
+    background-color: transparent;
     position: absolute;
     top: 2250px;
     left: 50%;
